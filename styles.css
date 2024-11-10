@@ -1,0 +1,64 @@
+body {
+    background-color: #333;
+    color: #fff;
+  }
+  #clock {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    font-size: 24px;
+    border: solid;
+    border-radius: 50%;
+    background-color: #333;
+  }
+  .hour-line, .minute-line, .second-line {
+    position: absolute;
+    transform-origin: 50% 100%;
+    padding-bottom: 15%;
+    left: 50%;
+  }
+  .hour-line {
+    width: 6px;
+    height: 60px;
+    top: 90px;
+  }
+  .minute-line {
+    width: 4px;
+    height: 80px;
+    top: 40px;
+  }
+  .second-line {
+    width: 2px;
+    height: 100px;
+    top: 25px;
+  }
+  #ampm {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #modeToggle {
+    position: fixed;
+    bottom: 45px;
+    left: 10px;
+    cursor: pointer;
+  }
+  #formatDropdown {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+  }
+  #buyMeACoffee {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  #githubLink {
+    position: fixed;
+    bottom: 45px;
+    right: 10px;
+    cursor: pointer;
+  }
